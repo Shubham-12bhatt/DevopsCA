@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/health', (req, res) => {
-  res.json({ status: "healthy" });
+  res.json({ status: "ok" });
 });
 
 const PORT = 3000;
